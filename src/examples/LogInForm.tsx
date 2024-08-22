@@ -3,7 +3,7 @@ import { Box, Button, Input, Stack, Text } from "@/components"
 
 export const LoginForm = () => {
     return(
-        <Box className="px-8 py-12 border border-gray-300 rounded-xl">
+     <Box className="px-8 py-12 border border-gray-300 rounded-xl">
       <Stack>
         <Text
           as="h2"
