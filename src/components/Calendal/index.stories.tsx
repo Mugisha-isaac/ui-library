@@ -17,6 +17,21 @@ type Story = StoryObj<typeof meta>;
 // define possible stories of calendal
 export const Solid: Story = {
     args: {
+        variant: "solid",
+        colorScheme: "primary",
+
+    },
+};
+
+export const Outline: Story = {
+    args: {
+        variant: "outline",
+        colorScheme: "primary",
+    },
+};
+
+export const Ghost: Story = {
+    args: {
         variant: "ghost",
         colorScheme: "primary",
     },

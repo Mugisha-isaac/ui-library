@@ -57,7 +57,7 @@ export const Calendal = forwardRef<HTMLInputElement, CalendalProps>(
     ({ variant, size, colorScheme, className, ...props }, ref) => {
         return (
             <input
-            type="date"
+                type="date"
                 ref={ref}
                 className={cn(calendalStyles({ variant, size, colorScheme }), className)}
                 {...props}
